@@ -1,0 +1,85 @@
+/* ===== MAIN.CSS goes here ===== */
+
+body {
+  background-color: black;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.galaxy-wrapper {
+  background-image: url("https://images.pexels.com/photos/681467/pexels-photo-681467.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  display: block;
+  height: 100hv;
+  overflow: hidden;
+  position: relative;
+  z-index: -1;
+}
+
+footer {
+  border-top: grey solid 2px;
+}
+
+.black1 {
+  border-bottom: grey solid 2px;
+}
+
+.btn {
+  background-color: #ffe5b4;
+}
+
+/* #landing {
+  height: 100vh;
+  background-image: url("");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  z-index: -1;
+} */
+
+#mainText {
+  margin-top: 30vh;
+}
+
+#intro {
+  margin-top: 50px;
+}
+
+#work {
+  background-color: rgb(61, 61, 61);
+}
+
+#p1 {
+  height: 350px;
+}
+
+.section-skills {
+  padding: 20px 20px 20px 20px;
+}
+
+.success {
+  padding: 1em;
+  margin-bottom: 0.75rem;
+  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
+  color: #468847;
+  background-color: #dff0d8;
+  border: 1px solid #d6e9c6;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+}
+
+.error {
+  padding: 1em;
+  margin-bottom: 0.75rem;
+  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
+  color: #b94a48;
+  background-color: #f2dede;
+  border: 1px solid rgba(185, 74, 72, 0.3);
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+}
